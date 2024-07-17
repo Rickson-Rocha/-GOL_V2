@@ -1,0 +1,29 @@
+site_name: +GOL ':' software de gerenciamento para centro de treinamentos de futebol.
+site_author: Rickson Rocha 
+nav:
+  - Home: index.md
+  - Arquitetura e Design:
+    - Diagrama C4: architecture/diagram_C4_components.md
+    - Design de Tela: design/design_views_project
+  - Tecnologias Utilizadas:
+    - React e Next.js: tecnologias/react_next.md
+    - React Native: tecnologias/react_native.md
+    - Spring Boot: tecnologias/spring_boot.md
+    - PostgreSQL: tecnologias/postgresql.md
+  - Guia do Usuário: guia_usuario.md
+  - Desenvolvimento e Contribuição:
+    - Configuração do Ambiente: desenvolvimento/configuracao_ambiente.md
+    - Padrões de Código: desenvolvimento/padroes_codigo.md
+    - Contribuições: desenvolvimento/contribuicoes.md
+  - Documentação Técnica:
+    - APIs: documentacao/apis.md
+    - Integrações: documentacao/integracoes.md
+    - Manutenção: documentacao/manutencao.md
+  - FAQ e Suporte: faq_suporte.md
+  - Sobre o Projeto: sobre.md
+theme:
+  name: readthedocs
+
+plugins:
+  - search
+  - mermaid2
